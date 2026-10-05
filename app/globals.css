@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root { font-family: Arial, "Noto Sans Arabic", sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.provider-logo { display: flex; align-items: center; justify-content: center; width: 2.75rem; height: 2.75rem; border-radius: 0.9rem; font-weight: 900; font-size: 1rem; color: white; background: rgba(255,255,255,.17); border: 1px solid rgba(255,255,255,.25); }
+.provider-logo.vodafone { border-radius: 999px; font-size: 1.45rem; background: #e60012; }
+.provider-logo.orange { background: #ff7900; font-size: .7rem; }
+.provider-logo.etisalat { background: #102a43; font-size: 1.15rem; }
+.provider-logo.we { background: #54258a; font-size: 1.15rem; }
+.provider-logo.instapay { background: #111827; font-size: .75rem; letter-spacing: -.04em; }
