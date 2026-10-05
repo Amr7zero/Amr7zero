@@ -3,25 +3,21 @@
 import { useState } from "react"
 import {
   ArrowUpLeft,
-  Facebook,
   Globe,
-  Instagram,
-  Linkedin,
   Mail,
   Menu,
   MessageCircle,
   Music2,
   Phone,
   Share2,
-  Youtube,
 } from "lucide-react"
 
 const socialLinks = [
-  { label: "فيسبوك", description: "تابع آخر أخبارنا وأنشطتنا", icon: Facebook, href: "https://www.facebook.com/", tone: "bg-[#eaf2ff] text-[#1877f2]" },
-  { label: "إنستجرام", description: "شوف لحظاتنا وقصصنا اليومية", icon: Instagram, href: "https://www.instagram.com/", tone: "bg-[#fff0f5] text-[#d62976]" },
+  { label: "فيسبوك", description: "تابع آخر أخبارنا وأنشطتنا", icon: Globe, href: "https://www.facebook.com/", tone: "bg-[#eaf2ff] text-[#1877f2]" },
+  { label: "إنستجرام", description: "شوف لحظاتنا وقصصنا اليومية", icon: Globe, href: "https://www.instagram.com/", tone: "bg-[#fff0f5] text-[#d62976]" },
   { label: "واتساب", description: "تواصل معانا بشكل مباشر", icon: MessageCircle, href: "https://wa.me/201064924628", tone: "bg-[#e9fbf0] text-[#1fa855]" },
-  { label: "يوتيوب", description: "شاهد قصص وتجارب من مجتمعنا", icon: Youtube, href: "https://www.youtube.com/", tone: "bg-[#fff0f0] text-[#ff0000]" },
-  { label: "لينكدإن", description: "اعرف أكتر عن مبادراتنا", icon: Linkedin, href: "https://www.linkedin.com/", tone: "bg-[#eaf6ff] text-[#0a66c2]" },
+  { label: "يوتيوب", description: "شاهد قصص وتجارب من مجتمعنا", icon: Music2, href: "https://www.youtube.com/", tone: "bg-[#fff0f0] text-[#ff0000]" },
+  { label: "لينكدإن", description: "اعرف أكتر عن مبادراتنا", icon: Globe, href: "https://www.linkedin.com/", tone: "bg-[#eaf6ff] text-[#0a66c2]" },
   { label: "موقعنا الإلكتروني", description: "كل التفاصيل في مكان واحد", icon: Globe, href: "https://example.com/", tone: "bg-[#f0edff] text-[#6347d8]" },
 ]
 
