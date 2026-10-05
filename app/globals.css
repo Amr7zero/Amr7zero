@@ -14,6 +14,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .link-card, .contact-card { display: flex; min-height: 70px; align-items: center; gap: 14px; border: 1px solid #e2e8f0; border-radius: 16px; background: #fff; padding: 12px 14px; color: #0f172a; text-decoration: none; box-shadow: 0 1px 3px rgb(15 23 42 / 5%); transition: transform .25s cubic-bezier(.16,1,.3,1), border-color .25s, box-shadow .25s; }
 .link-card:hover, .contact-card:hover { transform: translateY(-3px); border-color: #bbf7d0; box-shadow: 0 8px 25px rgb(22 163 74 / 12%); }
 .link-icon { display: flex; width: 44px; height: 44px; flex-shrink: 0; align-items: center; justify-content: center; border-radius: 13px; }
+.link-icon img { width: 25px; height: 25px; object-fit: contain; }
+.provider-logo img { width: 28px; height: 28px; object-fit: contain; }
 .donation-card { border: 1px solid #bbf7d0; border-radius: 20px; background: linear-gradient(145deg, #f0fdf4, #fff); padding: 18px; box-shadow: 0 8px 25px rgb(22 163 74 / 8%); }
 .heart-badge { display: flex; width: 38px; height: 38px; align-items: center; justify-content: center; border-radius: 12px; background: #dcfce7; color: #16a34a; font-size: 20px; }
 .donation-button { display: flex; width: 100%; align-items: center; justify-content: center; gap: 8px; margin-top: 16px; border: 0; border-radius: 12px; background: #16a34a; padding: 12px 16px; color: white; font: inherit; font-size: 13px; font-weight: 800; cursor: pointer; box-shadow: 0 4px 14px rgb(22 163 74 / 25%); transition: background .2s, transform .2s; }
